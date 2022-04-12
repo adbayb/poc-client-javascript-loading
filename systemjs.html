@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="systemjs-importmap">
+            {
+                "imports": {
+                    "react": "https://cdn.skypack.dev/react",
+                    "react-dom": "https://cdn.skypack.dev/react-dom"
+                }
+            }
+        </script>
+        <script src="https://unpkg.com/systemjs@6.12.1/dist/s.min.js"></script>
+        <script src="https://unpkg.com/systemjs-babel@0.3.1/dist/systemjs-babel.js"></script>
+        <script defer>System.import('./src/index.js');</script>
+    </head>
+    <body>
+        <div id="root"></div>
+    </body>
+</html>
